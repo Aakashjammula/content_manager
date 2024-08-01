@@ -6,7 +6,8 @@ This repository contains the source code for HackyAIMod, an AI-based content mod
 
 ### Using Docker
 
-1. **Download the Dockerfile from the repository.**
+1. **Download the Dockerfile from the repository:**
+    [Dockerfile](https://github.com/Aakashjammula/content_manager/tree/main)
 2. **Build the Docker image:**
     ```sh
     docker build -t HackyAI .
