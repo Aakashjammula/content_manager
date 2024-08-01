@@ -10,7 +10,7 @@ This repository contains the source code for HackyAIMod, an AI-based content mod
     [Dockerfile](https://github.com/Aakashjammula/content_manager/tree/main)
 2. **Build the Docker image:**
     ```sh
-    docker build -t HackyAI .
+    docker build -t moderator .
     ```
 3. **Turn off access control for Docker to your X11 server:**
     ```sh
@@ -19,11 +19,11 @@ This repository contains the source code for HackyAIMod, an AI-based content mod
 4. **Run the Docker container:**
     - **If you have an Nvidia GPU installed:**
         ```sh
-        docker run -v /tmp/.X11-unix:/tmp/.X11-unix -e DISPLAY=$DISPLAY --security-opt=label=disable --runtime=nvidia -d --name content_manager -i HackyAI
+        docker run -v /tmp/.X11-unix:/tmp/.X11-unix -e DISPLAY=$DISPLAY --security-opt=label=disable --runtime=nvidia -d --name content_manager -i moderator
         ```
     - **If you don't have an Nvidia GPU installed:**
         ```sh
-        docker run --security-opt=label=disable -v /tmp/.X11-unix:/tmp/.X11-unix -e DISPLAY=$DISPLAY -d --name content_manager -i HackyAI
+        docker run --security-opt=label=disable -v /tmp/.X11-unix:/tmp/.X11-unix -e DISPLAY=$DISPLAY -d --name content_manager -i moderator
         ```
 
 ### Without using Docker [Recommended]
