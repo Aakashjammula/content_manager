@@ -1,6 +1,6 @@
 # content_manager
 
-This repository contains the source code for HackyAIMod, an AI-based content moderation tool.
+This repository contains the source code for content_manager, an AI-based content moderation tool.
 
 ## Deployment
 
@@ -65,3 +65,9 @@ Feel free to submit issues or pull requests. For major changes, please open an i
 ## License
 
 This project is licensed under the MIT License. See the LICENSE file for details.
+
+## Code Contributors
+
+- Aakash JVV
+- Dhanush Kovi
+- Harshanth CS
